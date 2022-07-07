@@ -1,0 +1,49 @@
+#main{
+    border: 1px solid black;
+    background-image: linear-gradient(to right,red,blue);
+    text-align: center;
+    user-select: none;
+}
+#game_area{
+    border: 1px solid black;
+    background-color: cornsilk;
+    display: grid;
+    grid-template-columns: repeat(3,134px);
+    grid-template-rows: repeat(3,114px);
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.box{
+    border: 1px solid black;
+    font-size: 90px;
+}
+#text_area{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    width: 400px;
+    margin: auto;
+}
+#button_area{
+    width: 100px;
+    margin: auto;
+}
+#button{
+    visibility: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+    height: 40px    ;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+#ttt{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 12px;
+}
