@@ -1,8 +1,16 @@
+*{
+    margin:0
+}
+body{
+}
 #main{
+    height: calc(100vh - 2px);
     border: 1px solid black;
     background-image: linear-gradient(to right,red,blue);
     text-align: center;
     user-select: none;
+    display: grid;
+    place-items: center;
 }
 #game_area{
     border: 1px solid black;
@@ -40,6 +48,10 @@
     cursor: pointer;
     font-weight: bold;
     font-style: italic;
+}
+#button:hover{
+    background-color: black;
+    color: white
 }
 #ttt{
     font-size: 50px;
