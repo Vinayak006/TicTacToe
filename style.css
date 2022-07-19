@@ -1,8 +1,6 @@
 *{
     margin:0
 }
-body{
-}
 #main{
     height: calc(100vh - 2px);
     border: 1px solid black;
